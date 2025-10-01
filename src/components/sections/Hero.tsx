@@ -18,7 +18,7 @@ export const Hero = ({ data }: HeroProps) => {
     >
       {/* Animated background gradient */}
       <div className="absolute inset-0 gradient-hero opacity-10 dark:opacity-20" />
-      
+
       {/* Floating orbs */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse delay-1000" />
@@ -55,7 +55,7 @@ export const Hero = ({ data }: HeroProps) => {
               className="gradient-hero text-white shadow-glow hover:scale-105 transition-smooth group"
               onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
             >
-              View My Work
+              작업 보기
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-smooth" />
             </Button>
             <Button
@@ -64,7 +64,7 @@ export const Hero = ({ data }: HeroProps) => {
               className="border-2 hover:bg-primary/5 transition-smooth"
             >
               <Download className="mr-2 h-5 w-5" />
-              Download Resume
+              이력서 다운로드
             </Button>
           </div>
         </div>

@@ -31,7 +31,7 @@ export const Awards = ({ awards, certifications, education }: AwardsProps) => {
           {/* Section Title */}
           <div className="text-center space-y-2">
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Awards & Achievements
+              수상 & 성과
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
           </div>
@@ -40,7 +40,7 @@ export const Awards = ({ awards, certifications, education }: AwardsProps) => {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <Award className="h-6 w-6 text-primary" />
-              <h3 className="text-2xl font-bold text-foreground">Awards</h3>
+              <h3 className="text-2xl font-bold text-foreground">수상 경력</h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {awards.map((award, index) => (
@@ -70,7 +70,7 @@ export const Awards = ({ awards, certifications, education }: AwardsProps) => {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <FileCheck className="h-6 w-6 text-primary" />
-              <h3 className="text-2xl font-bold text-foreground">Certifications</h3>
+              <h3 className="text-2xl font-bold text-foreground">자격증</h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {certifications.map((cert, index) => (
@@ -100,7 +100,7 @@ export const Awards = ({ awards, certifications, education }: AwardsProps) => {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <GraduationCap className="h-6 w-6 text-primary" />
-              <h3 className="text-2xl font-bold text-foreground">Education & Courses</h3>
+              <h3 className="text-2xl font-bold text-foreground">교육 & 과정</h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {education.map((edu, index) => (

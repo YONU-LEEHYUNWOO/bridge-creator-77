@@ -1,13 +1,13 @@
 {
   "personal": {
-    "name": "Your Name",
-    "title": "Service Planner & Tech Innovator",
-    "catchphrase": "Solving problems with data, creating value through experience.",
+    "name": "홍길동",
+    "title": "서비스 기획자 & 기술 혁신가",
+    "catchphrase": "데이터로 문제를 해결하고, 경험으로 가치를 창출합니다.",
     "email": "your.email@example.com",
     "phone": "+82 10-XXXX-XXXX",
-    "location": "Gyeonggi-do, KR",
+    "location": "경기도, 대한민국",
     "profileImage": "/placeholder.svg",
-    "bio": "From managing a thriving café to building e-commerce platforms, my journey has been about bridging the gap between people and technology. I believe that great service planning comes from understanding both the human experience and the technical possibilities. Every challenge I've faced has taught me to think strategically, act decisively, and create solutions that truly matter.",
+    "bio": "카페 운영부터 이커머스 플랫폼 구축까지, 저의 여정은 사람과 기술의 간극을 메우는 일이었습니다. 훌륭한 서비스 기획은 인간의 경험과 기술적 가능성을 모두 이해하는 데서 나온다고 믿습니다. 마주한 모든 도전은 전략적으로 사고하고, 결단력 있게 행동하며, 진정으로 의미 있는 솔루션을 만드는 법을 가르쳐주었습니다.",
     "social": {
       "github": "https://github.com/yourusername",
       "linkedin": "https://linkedin.com/in/yourprofile",
@@ -17,70 +17,106 @@
   "kpis": [
     {
       "value": "20%",
-      "label": "Customer Retention Increase",
-      "description": "Through strategic café management"
+      "label": "고객 재방문율 증가",
+      "description": "전략적 카페 운영을 통해"
     },
     {
       "value": "$10K",
-      "label": "Monthly Online Sales",
-      "description": "Built from scratch"
+      "label": "월간 온라인 매출",
+      "description": "제로부터 구축"
     },
     {
       "value": "3+",
-      "label": "Years Experience",
-      "description": "Across multiple industries"
+      "label": "년 경력",
+      "description": "다양한 산업 분야"
     }
   ],
   "experience": [
     {
-      "company": "Tech Startup Inc.",
-      "position": "Service Planner",
-      "period": "2023.03 - Present",
+      "company": "테크 스타트업",
+      "position": "서비스 기획자",
+      "period": "2023.03 - 현재",
       "responsibilities": [
-        "Led product strategy and roadmap planning for AI-powered solutions",
-        "Coordinated cross-functional teams to deliver features on schedule",
-        "Conducted user research and translated insights into actionable requirements"
+        "AI 기반 솔루션의 제품 전략 및 로드맵 기획 주도",
+        "일정에 맞춰 기능을 제공하기 위한 크로스 펑셔널 팀 조율",
+        "사용자 리서치를 수행하고 인사이트를 실행 가능한 요구사항으로 전환"
       ]
     },
     {
-      "company": "E-Commerce Platform",
-      "position": "Operations Manager",
+      "company": "이커머스 플랫폼",
+      "position": "운영 매니저",
       "period": "2022.01 - 2023.02",
       "responsibilities": [
-        "Managed end-to-end operations for online store generating $10K monthly",
-        "Optimized inventory and logistics processes",
-        "Implemented data-driven marketing strategies"
+        "월 $10K를 창출하는 온라인 스토어의 엔드투엔드 운영 관리",
+        "재고 및 물류 프로세스 최적화",
+        "데이터 기반 마케팅 전략 수립 및 실행"
       ]
     },
     {
-      "company": "Local Café",
-      "position": "Owner & Manager",
+      "company": "로컬 카페",
+      "position": "대표 & 매니저",
       "period": "2020.06 - 2021.12",
       "responsibilities": [
-        "Increased customer retention by 20% through personalized service",
-        "Managed daily operations, staff, and finances",
-        "Built community through events and social media presence"
+        "개인화된 서비스를 통해 고객 재방문율 20% 증가",
+        "일일 운영, 직원 관리 및 재무 관리",
+        "이벤트와 소셜 미디어를 통한 커뮤니티 구축"
       ]
     }
   ],
   "skills": {
-    "Frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"],
-    "Backend": ["Node.js", "Express", "Python", "REST APIs"],
-    "Database": ["PostgreSQL", "MongoDB", "Firebase"],
-    "Tools": ["Git", "Figma", "Notion", "Jira", "Slack"],
-    "Planning": ["User Research", "Requirements Analysis", "Agile/Scrum", "Data Analysis"]
+    "프론트엔드": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "HTML/CSS"
+    ],
+    "백엔드": [
+      "Node.js",
+      "Express",
+      "Python",
+      "REST APIs"
+    ],
+    "데이터베이스": [
+      "PostgreSQL",
+      "MongoDB",
+      "Firebase"
+    ],
+    "도구": [
+      "Git",
+      "Figma",
+      "Notion",
+      "Jira",
+      "Slack"
+    ],
+    "기획": [
+      "사용자 리서치",
+      "요구사항 분석",
+      "Agile/Scrum",
+      "데이터 분석"
+    ]
   },
   "projects": [
     {
       "id": "project-1",
-      "title": "AI Price Comparison Platform",
-      "description": "A comprehensive platform that helps users find the best prices across multiple online retailers using AI-powered matching.",
-      "longDescription": "Developed during a hackathon, this platform leverages machine learning to identify identical products across different e-commerce sites, even when they have different names or descriptions. The system processes thousands of product listings daily and provides users with real-time price comparisons.",
+      "title": "AI 가격 비교 플랫폼",
+      "description": "AI 기반 매칭을 활용하여 여러 온라인 쇼핑몰에서 최저가를 찾아주는 종합 플랫폼입니다.",
+      "longDescription": "해커톤에서 개발된 이 플랫폼은 머신러닝을 활용하여 이름이나 설명이 다르더라도 여러 이커머스 사이트에서 동일한 제품을 식별합니다. 시스템은 매일 수천 개의 제품 리스팅을 처리하고 사용자에게 실시간 가격 비교를 제공합니다.",
       "image": "/placeholder.svg",
-      "tags": ["AI", "Price Comparison", "Web App"],
-      "techStack": ["Next.js", "TypeScript", "Python", "TensorFlow", "PostgreSQL"],
-      "myRole": "Led the service planning and concept design. Designed the user flow and coordinated with the development team to implement the AI matching algorithm.",
-      "results": "Won 1st place in the hackathon competition. Received positive feedback from judges for innovative use of AI and excellent user experience.",
+      "tags": [
+        "AI",
+        "가격비교",
+        "웹앱"
+      ],
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "TensorFlow",
+        "PostgreSQL"
+      ],
+      "myRole": "서비스 기획과 컨셉 디자인을 주도했습니다. 사용자 플로우를 설계하고 개발팀과 협력하여 AI 매칭 알고리즘을 구현했습니다.",
+      "results": "해커톤 대회에서 1등을 수상했습니다. AI의 혁신적인 활용과 뛰어난 사용자 경험으로 심사위원들로부터 긍정적인 피드백을 받았습니다.",
       "links": {
         "github": "https://github.com/yourusername/project",
         "demo": "https://demo.example.com",
@@ -89,14 +125,24 @@
     },
     {
       "id": "project-2",
-      "title": "Community Dashboard",
-      "description": "A real-time dashboard for community managers to track engagement metrics and user activity.",
-      "longDescription": "Built to solve the pain point of fragmented community data, this dashboard aggregates information from multiple sources and presents it in an intuitive, actionable format. Features include real-time notifications, custom report generation, and predictive analytics.",
+      "title": "커뮤니티 대시보드",
+      "description": "커뮤니티 매니저가 참여 지표와 사용자 활동을 추적할 수 있는 실시간 대시보드입니다.",
+      "longDescription": "분산된 커뮤니티 데이터의 문제를 해결하기 위해 구축된 이 대시보드는 여러 소스의 정보를 집계하여 직관적이고 실행 가능한 형식으로 제공합니다. 실시간 알림, 맞춤형 리포트 생성, 예측 분석 기능이 포함되어 있습니다.",
       "image": "/placeholder.svg",
-      "tags": ["Dashboard", "Analytics", "Community"],
-      "techStack": ["React", "Node.js", "MongoDB", "Chart.js", "WebSocket"],
-      "myRole": "Planned the entire service architecture and feature set. Conducted user interviews with community managers to identify key metrics and designed the dashboard layout.",
-      "results": "Reduced time spent on reporting by 60% for pilot users. Successfully deployed for 3 communities with 5000+ total members.",
+      "tags": [
+        "대시보드",
+        "분석",
+        "커뮤니티"
+      ],
+      "techStack": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Chart.js",
+        "WebSocket"
+      ],
+      "myRole": "전체 서비스 아키텍처와 기능을 기획했습니다. 커뮤니티 매니저와의 사용자 인터뷰를 통해 핵심 지표를 파악하고 대시보드 레이아웃을 설계했습니다.",
+      "results": "파일럿 사용자의 리포팅 시간을 60% 단축했습니다. 총 5000명 이상의 회원을 가진 3개 커뮤니티에 성공적으로 배포했습니다.",
       "links": {
         "github": "https://github.com/yourusername/dashboard",
         "demo": "https://dashboard.example.com"
@@ -105,38 +151,38 @@
   ],
   "awards": [
     {
-      "title": "1st Place - AI Hackathon 2023",
+      "title": "1등상 - AI 해커톤 2023",
       "date": "2023.11",
-      "organization": "Tech Innovation Foundation",
-      "description": "Awarded for innovative AI price comparison platform"
+      "organization": "기술혁신재단",
+      "description": "혁신적인 AI 가격 비교 플랫폼으로 수상"
     },
     {
-      "title": "Service Excellence Award",
+      "title": "서비스 우수상",
       "date": "2022.08",
-      "organization": "E-Commerce Association",
-      "description": "Recognized for outstanding customer service and operational efficiency"
+      "organization": "이커머스 협회",
+      "description": "뛰어난 고객 서비스와 운영 효율성을 인정받아 수상"
     }
   ],
   "certifications": [
     {
-      "title": "Google Data Analytics Professional Certificate",
+      "title": "구글 데이터 분석 전문가 자격증",
       "date": "2023.05",
       "organization": "Google / Coursera",
-      "description": "Comprehensive training in data analysis, visualization, and business intelligence"
+      "description": "데이터 분석, 시각화 및 비즈니스 인텔리전스 종합 교육 수료"
     },
     {
       "title": "Certified Scrum Product Owner (CSPO)",
       "date": "2023.02",
       "organization": "Scrum Alliance",
-      "description": "Professional certification in Agile product ownership and stakeholder management"
+      "description": "애자일 제품 오너십 및 이해관계자 관리 전문 자격증"
     }
   ],
   "education": [
     {
-      "title": "Full-Stack Development Bootcamp",
+      "title": "풀스택 개발 부트캠프",
       "date": "2022.06 - 2022.12",
-      "organization": "Code Academy",
-      "description": "Intensive 6-month program covering modern web development technologies"
+      "organization": "코드 아카데미",
+      "description": "현대 웹 개발 기술을 다루는 집중 6개월 프로그램"
     }
   ]
 }

@@ -36,7 +36,7 @@ export const Projects = ({ data }: ProjectsProps) => {
           {/* Section Title */}
           <div className="text-center space-y-2">
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Featured Projects
+              주요 프로젝트
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
           </div>
@@ -97,9 +97,9 @@ export const Projects = ({ data }: ProjectsProps) => {
                       alt={selectedProject.title}
                       className="w-full rounded-lg"
                     />
-                    
+
                     <div>
-                      <h4 className="text-lg font-semibold mb-2 text-foreground">Tech Stack</h4>
+                      <h4 className="text-lg font-semibold mb-2 text-foreground">기술 스택</h4>
                       <div className="flex flex-wrap gap-2">
                         {selectedProject.techStack.map((tech) => (
                           <Badge key={tech} variant="outline" className="border-primary/50">
@@ -110,7 +110,7 @@ export const Projects = ({ data }: ProjectsProps) => {
                     </div>
 
                     <div>
-                      <h4 className="text-lg font-semibold mb-2 text-foreground">Tags</h4>
+                      <h4 className="text-lg font-semibold mb-2 text-foreground">태그</h4>
                       <div className="flex flex-wrap gap-2">
                         {selectedProject.tags.map((tag) => (
                           <Badge key={tag} className="bg-primary/10 text-primary">
@@ -121,21 +121,21 @@ export const Projects = ({ data }: ProjectsProps) => {
                     </div>
 
                     <div>
-                      <h4 className="text-lg font-semibold mb-2 text-foreground">About This Project</h4>
+                      <h4 className="text-lg font-semibold mb-2 text-foreground">프로젝트 소개</h4>
                       <p className="text-foreground/80 leading-relaxed">
                         {selectedProject.longDescription}
                       </p>
                     </div>
 
                     <div>
-                      <h4 className="text-lg font-semibold mb-2 text-foreground">My Contribution</h4>
+                      <h4 className="text-lg font-semibold mb-2 text-foreground">나의 역할</h4>
                       <p className="text-foreground/80 leading-relaxed">
                         {selectedProject.myRole}
                       </p>
                     </div>
 
                     <div>
-                      <h4 className="text-lg font-semibold mb-2 text-foreground">Results & Outcomes</h4>
+                      <h4 className="text-lg font-semibold mb-2 text-foreground">결과 & 성과</h4>
                       <p className="text-foreground/80 leading-relaxed">
                         {selectedProject.results}
                       </p>
@@ -149,7 +149,7 @@ export const Projects = ({ data }: ProjectsProps) => {
                           onClick={() => window.open(selectedProject.links.github, "_blank")}
                         >
                           <Github className="mr-2 h-4 w-4" />
-                          View Code
+                          코드 보기
                         </Button>
                       )}
                       {selectedProject.links.demo && (
@@ -158,7 +158,7 @@ export const Projects = ({ data }: ProjectsProps) => {
                           onClick={() => window.open(selectedProject.links.demo, "_blank")}
                         >
                           <ExternalLink className="mr-2 h-4 w-4" />
-                          Live Demo
+                          라이브 데모
                         </Button>
                       )}
                       {selectedProject.links.blog && (
@@ -166,7 +166,7 @@ export const Projects = ({ data }: ProjectsProps) => {
                           variant="secondary"
                           onClick={() => window.open(selectedProject.links.blog, "_blank")}
                         >
-                          Read Blog Post
+                          블로그 글 읽기
                         </Button>
                       )}
                     </div>

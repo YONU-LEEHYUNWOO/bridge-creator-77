@@ -23,10 +23,10 @@ const Index = () => {
         education={portfolioData.education}
       />
       <Contact data={portfolioData.personal} />
-      
+
       {/* Footer */}
       <footer className="py-8 text-center text-muted-foreground border-t border-border">
-        <p>© 2024 {portfolioData.personal.name}. Built with passion and precision.</p>
+        <p>© 2024 {portfolioData.personal.name}. 열정과 정확함으로 제작되었습니다.</p>
       </footer>
     </div>
   );

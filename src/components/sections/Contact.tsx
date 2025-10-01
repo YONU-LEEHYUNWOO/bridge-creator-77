@@ -20,8 +20,8 @@ export const Contact = ({ data }: ContactProps) => {
   const copyEmail = () => {
     navigator.clipboard.writeText(data.email);
     toast({
-      title: "Email copied!",
-      description: "The email address has been copied to your clipboard.",
+      title: "이메일이 복사되었습니다!",
+      description: "이메일 주소가 클립보드에 복사되었습니다.",
     });
   };
 
@@ -32,11 +32,11 @@ export const Contact = ({ data }: ContactProps) => {
           {/* Section Title */}
           <div className="text-center space-y-2">
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Let's Connect
+              연락하기
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
             <p className="text-lg text-muted-foreground mt-4">
-              I'm always open to discussing new opportunities and collaborations
+              새로운 기회와 협업에 대해 언제든 논의할 준비가 되어 있습니다
             </p>
           </div>
 
@@ -44,17 +44,17 @@ export const Contact = ({ data }: ContactProps) => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Card className="p-6 text-center gradient-card border-border/50 backdrop-blur-sm hover:shadow-lg transition-smooth">
               <Mail className="h-8 w-8 text-primary mx-auto mb-3" />
-              <h3 className="font-semibold mb-2 text-foreground">Email</h3>
+              <h3 className="font-semibold mb-2 text-foreground">이메일</h3>
               <p className="text-sm text-muted-foreground break-all">{data.email}</p>
             </Card>
             <Card className="p-6 text-center gradient-card border-border/50 backdrop-blur-sm hover:shadow-lg transition-smooth">
               <Phone className="h-8 w-8 text-primary mx-auto mb-3" />
-              <h3 className="font-semibold mb-2 text-foreground">Phone</h3>
+              <h3 className="font-semibold mb-2 text-foreground">전화번호</h3>
               <p className="text-sm text-muted-foreground">{data.phone}</p>
             </Card>
             <Card className="p-6 text-center gradient-card border-border/50 backdrop-blur-sm hover:shadow-lg transition-smooth">
               <MapPin className="h-8 w-8 text-primary mx-auto mb-3" />
-              <h3 className="font-semibold mb-2 text-foreground">Location</h3>
+              <h3 className="font-semibold mb-2 text-foreground">위치</h3>
               <p className="text-sm text-muted-foreground">{data.location}</p>
             </Card>
           </div>
@@ -67,7 +67,7 @@ export const Contact = ({ data }: ContactProps) => {
               onClick={() => window.location.href = `mailto:${data.email}`}
             >
               <Mail className="mr-2 h-5 w-5" />
-              Send Email
+              이메일 보내기
             </Button>
             <Button
               size="lg"
@@ -76,7 +76,7 @@ export const Contact = ({ data }: ContactProps) => {
               onClick={copyEmail}
             >
               <Copy className="mr-2 h-5 w-5" />
-              Copy Email
+              이메일 복사
             </Button>
           </div>
 

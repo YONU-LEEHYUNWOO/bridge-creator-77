@@ -13,7 +13,7 @@ export const Skills = ({ data }: SkillsProps) => {
           {/* Section Title */}
           <div className="text-center space-y-2">
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Skills & Expertise
+              기술 & 전문성
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
           </div>
