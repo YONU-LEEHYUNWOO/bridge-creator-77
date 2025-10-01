@@ -1,24 +1,39 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Service Planner & Tech Innovator</title>
-    <meta name="description" content="Portfolio of a service planner bridging technology and business. Explore my projects, experience, and skills in tech innovation." />
-    <meta name="author" content="Service Planner Portfolio" />
 
-    <meta property="og:title" content="Portfolio - Service Planner & Tech Innovator" />
-    <meta property="og:description" content="Portfolio showcasing service planning expertise, tech projects, and professional achievements." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Service Planner & Tech Innovator</title>
+  <meta name="description"
+    content="Portfolio of a service planner bridging technology and business. Explore my projects, experience, and skills in tech innovation." />
+  <meta name="author" content="Service Planner Portfolio" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+  <meta property="og:title" content="Portfolio - Service Planner & Tech Innovator" />
+  <meta property="og:description"
+    content="Portfolio showcasing service planning expertise, tech projects, and professional achievements." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@lovable_dev" />
+  <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+  <!-- GitHub Pages SPA 라우팅 지원: 404 페이지에서 리다이렉트된 경우 원래 경로로 복원 -->
+  <script>
+    (function () {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>

@@ -6,9 +6,8 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // GitHub Pages 배포를 위한 base 경로 설정
-  // Repository 이름이 'my-repo'라면 '/my-repo/'로 설정
-  // 사용자 GitHub Pages (username.github.io)인 경우 '/'로 설정
-  base: process.env.GITHUB_ACTIONS ? '/' : '/',
+  // 프로젝트 페이지: https://username.github.io/bridge-creator-77/
+  base: process.env.GITHUB_ACTIONS ? '/bridge-creator-77/' : '/',
   server: {
     host: "::",
     port: 8080,
