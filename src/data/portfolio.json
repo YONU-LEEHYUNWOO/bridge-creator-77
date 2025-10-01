@@ -1,0 +1,142 @@
+{
+  "personal": {
+    "name": "Your Name",
+    "title": "Service Planner & Tech Innovator",
+    "catchphrase": "Solving problems with data, creating value through experience.",
+    "email": "your.email@example.com",
+    "phone": "+82 10-XXXX-XXXX",
+    "location": "Gyeonggi-do, KR",
+    "profileImage": "/placeholder.svg",
+    "bio": "From managing a thriving café to building e-commerce platforms, my journey has been about bridging the gap between people and technology. I believe that great service planning comes from understanding both the human experience and the technical possibilities. Every challenge I've faced has taught me to think strategically, act decisively, and create solutions that truly matter.",
+    "social": {
+      "github": "https://github.com/yourusername",
+      "linkedin": "https://linkedin.com/in/yourprofile",
+      "blog": "https://yourblog.com"
+    }
+  },
+  "kpis": [
+    {
+      "value": "20%",
+      "label": "Customer Retention Increase",
+      "description": "Through strategic café management"
+    },
+    {
+      "value": "$10K",
+      "label": "Monthly Online Sales",
+      "description": "Built from scratch"
+    },
+    {
+      "value": "3+",
+      "label": "Years Experience",
+      "description": "Across multiple industries"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Startup Inc.",
+      "position": "Service Planner",
+      "period": "2023.03 - Present",
+      "responsibilities": [
+        "Led product strategy and roadmap planning for AI-powered solutions",
+        "Coordinated cross-functional teams to deliver features on schedule",
+        "Conducted user research and translated insights into actionable requirements"
+      ]
+    },
+    {
+      "company": "E-Commerce Platform",
+      "position": "Operations Manager",
+      "period": "2022.01 - 2023.02",
+      "responsibilities": [
+        "Managed end-to-end operations for online store generating $10K monthly",
+        "Optimized inventory and logistics processes",
+        "Implemented data-driven marketing strategies"
+      ]
+    },
+    {
+      "company": "Local Café",
+      "position": "Owner & Manager",
+      "period": "2020.06 - 2021.12",
+      "responsibilities": [
+        "Increased customer retention by 20% through personalized service",
+        "Managed daily operations, staff, and finances",
+        "Built community through events and social media presence"
+      ]
+    }
+  ],
+  "skills": {
+    "Frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"],
+    "Backend": ["Node.js", "Express", "Python", "REST APIs"],
+    "Database": ["PostgreSQL", "MongoDB", "Firebase"],
+    "Tools": ["Git", "Figma", "Notion", "Jira", "Slack"],
+    "Planning": ["User Research", "Requirements Analysis", "Agile/Scrum", "Data Analysis"]
+  },
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "AI Price Comparison Platform",
+      "description": "A comprehensive platform that helps users find the best prices across multiple online retailers using AI-powered matching.",
+      "longDescription": "Developed during a hackathon, this platform leverages machine learning to identify identical products across different e-commerce sites, even when they have different names or descriptions. The system processes thousands of product listings daily and provides users with real-time price comparisons.",
+      "image": "/placeholder.svg",
+      "tags": ["AI", "Price Comparison", "Web App"],
+      "techStack": ["Next.js", "TypeScript", "Python", "TensorFlow", "PostgreSQL"],
+      "myRole": "Led the service planning and concept design. Designed the user flow and coordinated with the development team to implement the AI matching algorithm.",
+      "results": "Won 1st place in the hackathon competition. Received positive feedback from judges for innovative use of AI and excellent user experience.",
+      "links": {
+        "github": "https://github.com/yourusername/project",
+        "demo": "https://demo.example.com",
+        "blog": "https://yourblog.com/project-post"
+      }
+    },
+    {
+      "id": "project-2",
+      "title": "Community Dashboard",
+      "description": "A real-time dashboard for community managers to track engagement metrics and user activity.",
+      "longDescription": "Built to solve the pain point of fragmented community data, this dashboard aggregates information from multiple sources and presents it in an intuitive, actionable format. Features include real-time notifications, custom report generation, and predictive analytics.",
+      "image": "/placeholder.svg",
+      "tags": ["Dashboard", "Analytics", "Community"],
+      "techStack": ["React", "Node.js", "MongoDB", "Chart.js", "WebSocket"],
+      "myRole": "Planned the entire service architecture and feature set. Conducted user interviews with community managers to identify key metrics and designed the dashboard layout.",
+      "results": "Reduced time spent on reporting by 60% for pilot users. Successfully deployed for 3 communities with 5000+ total members.",
+      "links": {
+        "github": "https://github.com/yourusername/dashboard",
+        "demo": "https://dashboard.example.com"
+      }
+    }
+  ],
+  "awards": [
+    {
+      "title": "1st Place - AI Hackathon 2023",
+      "date": "2023.11",
+      "organization": "Tech Innovation Foundation",
+      "description": "Awarded for innovative AI price comparison platform"
+    },
+    {
+      "title": "Service Excellence Award",
+      "date": "2022.08",
+      "organization": "E-Commerce Association",
+      "description": "Recognized for outstanding customer service and operational efficiency"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Google Data Analytics Professional Certificate",
+      "date": "2023.05",
+      "organization": "Google / Coursera",
+      "description": "Comprehensive training in data analysis, visualization, and business intelligence"
+    },
+    {
+      "title": "Certified Scrum Product Owner (CSPO)",
+      "date": "2023.02",
+      "organization": "Scrum Alliance",
+      "description": "Professional certification in Agile product ownership and stakeholder management"
+    }
+  ],
+  "education": [
+    {
+      "title": "Full-Stack Development Bootcamp",
+      "date": "2022.06 - 2022.12",
+      "organization": "Code Academy",
+      "description": "Intensive 6-month program covering modern web development technologies"
+    }
+  ]
+}
